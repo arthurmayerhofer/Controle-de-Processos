@@ -1,0 +1,22 @@
+
+# importing the required module 
+import matplotlib.pyplot as plt 
+  
+# x axis values 
+x = [280,270,260,250,240,230,220,210,200,190,180,170,160,150,140,130,120,110,100,90,80,70,60,50,40,30] 
+# corresponding y axis values 
+y = [4.29,4.29,4.28,4.18,4.12,4.05,3.96,3.88,3.82,3.74,3.64,3.57,3.49,3.41,3.32,3.25,3.17,3.10,3.04,2.95,2.81,2.79,2.62,2.75,2.73,2.74] 
+print(len(y))
+# plotting the points  
+plt.plot(x, y) 
+  
+# naming the x axis 
+plt.xlabel('Nível') 
+# naming the y axis 
+plt.ylabel('Tensão Bomba') 
+  
+# giving a title to my graph 
+plt.title('Gráfico LabView7') 
+  
+# function to show the plot 
+plt.show() 
